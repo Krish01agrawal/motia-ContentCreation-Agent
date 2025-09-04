@@ -3,7 +3,7 @@
   "description": "AI-powered social media automation workflow that scrapes articles and generates viral social media posts using Motia",
   "scripts": {
     "prepare": "python3 -m venv python_modules && source python_modules/bin/activate && pip install -r requirements.txt",
-    "dev": "source python_modules/bin/activate && motia dev",
+    "dev": "source python_modules/bin/activate && motia dev --port 3001",
     "dev:debug": "source python_modules/bin/activate && motia dev --debug",
     "build": "source python_modules/bin/activate && motia build",
     "clean": "rm -rf dist .motia .mermaid node_modules python_modules",
